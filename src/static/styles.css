@@ -142,3 +142,75 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: #666;
+}
+
+.participants-section {
+  margin-top: 12px;
+}
+
+.participants-section h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #1a237e;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background: linear-gradient(180deg, #ffffff, #fbfbfd);
+  border: 1px solid #eceff1;
+  border-radius: 6px;
+  color: #222;
+  font-size: 14px;
+}
+
+.participants-list li span {
+  flex: 1;
+}
+
+.participants-list li.empty {
+  background: transparent;
+  border: none;
+  color: #777;
+  font-style: italic;
+  justify-content: flex-start;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 4px;
+  margin-left: 8px;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.delete-btn:hover {
+  color: #b71c1c;
+  background-color: rgba(211, 47, 47, 0.08);
+  border-radius: 4px;
+}
